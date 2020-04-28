@@ -1,12 +1,10 @@
-import { rollup, watch } from 'rollup'
-import fs from 'fs-extra'
-import replace from 'replace-in-file'
-import { bold, green, yellow, options } from 'colorette'
-import copy from '../src'
+const { rollup, watch } = require('rollup')
+const fs = require('fs-extra')
+const replace = require('replace-in-file')
+const { bold, green, yellow } = require('colorette')
+const copy = require('../dist/index.cjs')
 
 process.chdir(`${__dirname}/fixtures`)
-
-options.enabled = true
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms))
