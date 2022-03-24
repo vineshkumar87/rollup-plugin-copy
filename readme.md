@@ -1,9 +1,6 @@
 # rollup-plugin-copy
 
-[![Build Status](https://travis-ci.org/vladshcherbin/rollup-plugin-copy.svg?branch=master)](https://travis-ci.org/vladshcherbin/rollup-plugin-copy)
-[![Codecov](https://codecov.io/gh/vladshcherbin/rollup-plugin-copy/branch/master/graph/badge.svg)](https://codecov.io/gh/vladshcherbin/rollup-plugin-copy)
-
-Copy files and folders, with glob support.
+Copy files and folders, with glob support. This package has the bug fix applied in repo => https://github.com/piscium2010/rollup-plugin-copy
 
 ## Installation
 

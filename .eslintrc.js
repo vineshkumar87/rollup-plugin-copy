@@ -3,7 +3,8 @@ module.exports = {
   rules: {
     'comma-dangle': ['error', 'never'],
     'object-curly-newline': ['error', { multiline: true, consistent: true }],
-    semi: ['error', 'never']
+    semi: ['error', 'never'],
+    "linebreak-style": 0
   },
   env: {
     jest: true
