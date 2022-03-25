@@ -6,17 +6,17 @@ Copy files and folders, with glob support. This package has the bug fix applied 
 
 ```bash
 # yarn
-yarn add rollup-plugin-copy -D
+yarn add rollup-plugin-copy-sync -D
 
 # npm
-npm install rollup-plugin-copy -D
+npm install rollup-plugin-copy-sync -D
 ```
 
 ## Usage
 
 ```js
 // rollup.config.js
-import copy from 'rollup-plugin-copy'
+import copy from 'rollup-plugin-copy-sync'
 
 export default {
   input: 'src/index.js',
